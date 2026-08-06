@@ -231,7 +231,7 @@ Contributions and suggestions are welcome!
   <p>🚀 <i>Creator & Lead Developer of AttenMo</i></p>
   
   <a href="https://github.com/shivam238">
-    <img src="https://img.shields.io/badge/GitHub-@shivam238-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+    
   </a>
   <br><br>
 </div>

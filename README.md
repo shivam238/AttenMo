@@ -222,7 +222,7 @@ Contributions and suggestions are welcome!
 # 👨‍💻 Developer
 
 <div align="center">
-  <h3><b>Shivam</b></h3>
+  <h3><b>Shivam Kumar Mahto</b></h3>
   <p>🚀 <i>Creator & Lead Developer of AttenMo</i></p>
   
   <a href="https://github.com/shivam238">

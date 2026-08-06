@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shivam238/AttenMo/main/public/assets/icons/icon-192.png" alt="AttenMo Logo" width="120"/>
+  <img src="https://attenmo.web.app/icon-192.png" alt="AttenMo Logo" width="120" style="border-radius: 24px;" />
 </p>
 
 <h1 align="center">AttenMo</h1>

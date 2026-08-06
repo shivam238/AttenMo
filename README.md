@@ -222,18 +222,12 @@ Contributions and suggestions are welcome!
 # 👨‍💻 Developer
 
 <div align="center">
-  <br>
-  <a href="https://github.com/shivam238">
-    <img src="https://github.com/shivam238.png" width="110" style="border-radius: 50%;" alt="Shivam Profile" />
-  </a>
-  <br><br>
   <h3><b>Shivam</b></h3>
   <p>🚀 <i>Creator & Lead Developer of AttenMo</i></p>
   
   <a href="https://github.com/shivam238">
     
   </a>
-  <br><br>
 </div>
 
 ---

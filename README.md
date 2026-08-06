@@ -40,21 +40,18 @@ It helps students monitor attendance, allows Class Representatives to manage rec
 ## 👥 Who Uses AttenMo?
 
 ### 🎓 Students
-
 * Track subject-wise attendance
 * View attendance percentage
 * Monitor safe attendance limits
 * Understand attendance status quickly
 
 ### 👑 Class Representatives
-
 * Manage student lists
 * Mark attendance digitally
 * Maintain attendance records
 * Generate class insights
 
 ### 🏫 Institutions
-
 * Reduce manual attendance work
 * Maintain organized records
 * Improve attendance monitoring
@@ -63,11 +60,11 @@ It helps students monitor attendance, allows Class Representatives to manage rec
 
 # ⚡ Problem & Solution
 
-| Problem                                     | AttenMo Solution                 |
-| ------------------------------------------- | -------------------------------- |
-| Manual attendance takes classroom time      | Digital attendance marking       |
-| Paper records are difficult to maintain     | Cloud-based attendance records   |
-| Students cannot track attendance easily     | Personal attendance dashboard    |
+| Problem | AttenMo Solution |
+| --- | --- |
+| Manual attendance takes classroom time | Digital attendance marking |
+| Paper records are difficult to maintain | Cloud-based attendance records |
+| Students cannot track attendance easily | Personal attendance dashboard |
 | Attendance calculations require manual work | Automatic percentage calculation |
 
 ---
@@ -75,59 +72,33 @@ It helps students monitor attendance, allows Class Representatives to manage rec
 # ✨ Features
 
 ## 📱 QR Based Attendance
-
 Students can mark attendance quickly using QR-based attendance sessions.
 
 ## 🎓 Student Dashboard
-
 Students can view:
-
 * Subject attendance
 * Attendance percentage
 * Attendance status
 * Safe margin information
 
 ## 👥 CR Management Panel
-
 Class Representatives can:
-
 * Manage students
 * Mark attendance
 * Update attendance records
 * View class information
 
 ## 📊 Attendance Analytics
-
 Visual insights help understand:
-
 * Attendance trends
 * Subject performance
 * Attendance requirements
 
 ## 🔐 Secure Authentication
-
 Firebase authentication provides secure user login and access control.
 
 ## ⚡ Real-Time Updates
-
 Attendance changes are synchronized instantly across the platform.
-
----
-
-# 🖼️ Screenshots
-
-Add screenshots here:
-
-```
-screenshots/
-├── dashboard.png
-├── attendance.png
-└── analytics.png
-```
-
-Example:
-
-![Dashboard](./screenshots/dashboard.png)
 
 ---
 
@@ -135,10 +106,10 @@ Example:
 
 ```mermaid
 graph LR
-A[CR Creates Attendance] --> B[QR Generated]
-B --> C[Student Scans QR]
+A[CR Creates Session] --> B[QR / Roster Generated]
+B --> C[Student Scans / Marked]
 C --> D[Attendance Verified]
-D --> E[Data Stored]
+D --> E[Cloud Firestore Stored]
 E --> F[Dashboard Updated]
 ```
 
@@ -146,14 +117,14 @@ E --> F[Dashboard Updated]
 
 # 💻 Tech Stack
 
-| Category        | Technology              |
-| --------------- | ----------------------- |
-| Frontend        | HTML5, CSS3, JavaScript |
-| Mobile App      | Capacitor               |
-| Database        | Firebase                |
-| Authentication  | Firebase Auth           |
-| Hosting         | Firebase Hosting        |
-| Version Control | Git & GitHub            |
+| Category | Technology | Description |
+| --- | --- | --- |
+| Frontend | HTML5, CSS3, JavaScript | Modern Web Interface with Glassmorphism UI |
+| Mobile App | Capacitor | Native Android application container |
+| Database | Firebase Firestore | Realtime Cloud Database |
+| Authentication | Firebase Auth | Role-based user login & session security |
+| Hosting | Firebase Hosting | Production Edge CDN |
+| Version Control | Git & GitHub | Source code management |
 
 ---
 
@@ -180,12 +151,18 @@ Analytics --> UI
 # ⚙️ Installation
 
 ```bash
+# Clone the repository
 git clone https://github.com/shivam238/AttenMo.git
 
+# Navigate into directory
 cd AttenMo
-```
 
-Open the project locally or configure your development environment.
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
 
 ---
 
@@ -193,82 +170,74 @@ Open the project locally or configure your development environment.
 
 ```text
 AttenMo/
-│
-├── public/
+├── android/                  # Native Android App (Capacitor)
+├── public/                   # Static Frontend & Web Assets
 │   ├── assets/
-│   ├── css/
-│   ├── js/
-│   └── icons/
-│
-├── android/
-│
-├── scripts/
-│
-├── firebase.json
-├── package.json
-└── README.md
+│   │   ├── css/              # UI & Glassmorphism Styles
+│   │   ├── js/               # Core Logic & Firebase Controllers
+│   │   └── icons/            # App Icons
+│   ├── app.html              # Student/CR Main App
+│   ├── track.html            # Light Attendance Portal
+│   └── index.html            # Product Landing Page
+├── scripts/                  # Build Automation
+├── firebase.json             # Hosting Configuration
+├── package.json              # App Dependencies
+└── README.md                 # Documentation
 ```
 
 ---
 
 # 🚀 Future Roadmap
 
-* [ ] AI-based attendance insights
-* [ ] Advanced analytics dashboard
-* [ ] Institution management panel
-* [ ] Better automation features
-* [ ] iOS application support
+* [ ] AI-based attendance insights & predictions
+* [ ] Advanced analytics dashboard & exports
+* [ ] Multi-class institution management panel
+* [ ] Geofenced QR attendance security
+* [ ] Native iOS application support
 
 ---
 
 # 🔒 Security
 
 AttenMo follows secure development practices:
-
-* Protected environment variables
-* Firebase authentication
-* Controlled database access rules
-* Secure data communication
+* Protected environment configurations
+* Role-based Firebase authentication
+* Controlled database security rules
+* Encrypted client-server communications
 
 ---
 
 # 🤝 Contribution
 
-Contributions and suggestions are welcome.
+Contributions and suggestions are welcome!
 
-Steps:
-
-```bash
-git checkout -b feature-name
-
-git commit -m "Add new feature"
-
-git push origin feature-name
-```
-
-Create a Pull Request after your changes.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ---
 
 # 👨‍💻 Developer
 
-<p align="center">
-
-<a href="https://github.com/shivam238">
-<img src="https://github.com/shivam238.png" width="100"/>
-<br>
-<b>Shivam</b>
-</a>
-
-</p>
-
-Creator & Developer of AttenMo
-
-GitHub:
-https://github.com/shivam238
+<div align="center">
+  <br>
+  <a href="https://github.com/shivam238">
+    <img src="https://github.com/shivam238.png" width="110" style="border-radius: 50%;" alt="Shivam Profile" />
+  </a>
+  <br><br>
+  <h3><b>Shivam</b></h3>
+  <p>🚀 <i>Creator & Lead Developer of AttenMo</i></p>
+  
+  <a href="https://github.com/shivam238">
+    <img src="https://img.shields.io/badge/GitHub-@shivam238-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+  </a>
+  <br><br>
+</div>
 
 ---
 
 <p align="center">
-<strong>Built with ❤️ to make attendance smarter, faster, and simpler.</strong>
+  <strong>Built with ❤️ to make attendance smarter, faster, and simpler.</strong>
 </p>

@@ -3,7 +3,14 @@
 ![AttenMo Banner](https://img.shields.io/badge/AttenMo-Product_Showcase-6c5ce7?style=for-the-badge&logo=google-chrome&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active_Development-00b894?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Web_%7C_PWA_%7C_Android-0984e3?style=for-the-badge)
-![Security](https://img.shields.io/badge/Security-Firebase_Protected-d63031?style=for-the-badge)
+[![Download APK](https://img.shields.io/badge/Download-Android_APK_(v1.0.0)-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/shivam238/AttenMo/releases/tag/v1.0.0)
+
+---
+
+## 📲 Direct APK Download
+
+You can download the latest official Android APK directly from the Releases tab:
+👉 **[Download AttenMo v1.0.0 Android APK](https://github.com/shivam238/AttenMo/releases/download/v1.0.0/AttenMo.apk)**
 
 ---
 

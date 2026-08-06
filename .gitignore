@@ -1,0 +1,13 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Node / Dependencies
+node_modules/
+npm-debug.log
+
+# Environment & Secrets
+.env
+.env.local
+*.pem
+*.key

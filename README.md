@@ -16,7 +16,7 @@
   <a href="https://attenmo.web.app">
     <img src="https://img.shields.io/badge/Live_Demo-🚀-6c5ce7?style=for-the-badge"/>
   </a>
-  <a href="https://github.com/shivam238/AttenMo/releases">
+  <a href="https://github.com/shivam238/AttenMo/releases/download/v1.0.0/AttenMo.apk">
     <img src="https://img.shields.io/badge/Download_App-Android-2ea44f?style=for-the-badge&logo=android"/>
   </a>
 </p>

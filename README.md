@@ -148,24 +148,6 @@ Analytics --> UI
 
 ---
 
-# ⚙️ Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/shivam238/AttenMo.git
-
-# Navigate into directory
-cd AttenMo
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
----
-
 # 📂 Project Structure
 
 ```text
@@ -184,38 +166,6 @@ AttenMo/
 ├── package.json              # App Dependencies
 └── README.md                 # Documentation
 ```
-
----
-
-# 🚀 Future Roadmap
-
-* [ ] AI-based attendance insights & predictions
-* [ ] Advanced analytics dashboard & exports
-* [ ] Multi-class institution management panel
-* [ ] Geofenced QR attendance security
-* [ ] Native iOS application support
-
----
-
-# 🔒 Security
-
-AttenMo follows secure development practices:
-* Protected environment configurations
-* Role-based Firebase authentication
-* Controlled database security rules
-* Encrypted client-server communications
-
----
-
-# 🤝 Contribution
-
-Contributions and suggestions are welcome!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ---
 
